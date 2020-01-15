@@ -9,5 +9,7 @@ Format tf source code with `terraform fmt`.
 ```json
 terraform-fmt:
   binPath: "terraform"
-  fmtOnSave: true
+  fmtOnSave: true,
+  useRelativePath: true,
+  debugMode: false
 ```
